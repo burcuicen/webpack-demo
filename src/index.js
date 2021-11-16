@@ -1,6 +1,6 @@
 console.log("HELLO WORLD")
-alert("HELLO WORLD")
-import "./main.css";
+//alert("HELLO WORLD")
+import "./main.scss";
 
 //importing everything manually to run all of the scripts for webpack
 import { run } from "./app/app";
