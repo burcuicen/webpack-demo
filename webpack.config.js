@@ -5,5 +5,13 @@ module.exports = {
   output: {
     filename: "main.js", //the file that is rendered and its desired location
     path: path.resolve(__dirname, "dist")
-  }
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      }
+    ]
+}
 };
